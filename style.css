@@ -1,0 +1,99 @@
+*{
+margin: 0;
+padding: 0;
+font-family: monospace;
+}
+html{
+background-color: black;
+}
+.top{
+position: absolute;
+top: 0vh;
+width: 100vw;
+height:  45vh;
+overflow: scroll;
+
+}
+.middle{
+position: absolute;
+top: 45vh;
+width: 100vw;
+height:  10vh;
+text-align: center;
+line-height: 10vh;
+}
+.bottom{
+position: absolute;
+display: inline-flex;
+flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+top: 55vh;
+width: 100vw;
+height:  40vh;
+overflow: scroll;
+}
+.button{
+display: inline;
+padding: 15px;
+margin: 15px;
+background-color: rgba(255, 255, 255, 0.4);
+box-shadow: 8px 8px 9px 1px rgba(185, 185, 185, 0.78);
+color: black;
+font-size: 24px;
+border-radius: 10px;
+user-select: none;
+}
+#nameInList {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  height: 70px;
+  width: 70px;
+  line-height: 2vh;
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 8px 8px 9px 1px rgba(185, 185, 185, 0.78);
+  border-radius: 500px;
+  user-select: none;
+}
+.top::-webkit-scrollbar {
+  display: none;
+}
+#selectedPerson {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 70px;
+  width: 70px;
+  line-height: 2vh;
+  color: white;
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 8px 8px 9px 1px rgba(185, 185, 185, 0.78);
+  border-radius: 500px;
+  user-select: none;
+}
+.bottom::-webkit-scrollbar {
+  display: none;
+}
+.git{
+display: inline-flex;
+position: absolute;
+content-align: center;
+justify-content: center;
+width: 100vw;
+height: 5vh;
+bottom: 0px;
+}
+.git img{
+max-height: 90%;
+border-radius: 5px;
+}

@@ -97,9 +97,9 @@ bottom: 0px;
 max-height: 90%;
 border-radius: 5px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #selectedPerson, #nameInList {
-    height: 20vw;
-    width: 20vw;
+    height: 15vw;
+    width: 15vw;
   }
 }
